@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.nav{
+    flex: 1;
+    text-align: right;
+}
+
+.nav ul li{
+    display: inline-block;
+    position: relative;
+    padding: 15px;
+
+}
