@@ -1,21 +1,50 @@
-body{
+.body{
     margin: 0;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 2%;
+    padding: 0;
 }
 
 .nav{
     flex: 1;
-    text-align: right;
+    text-align: center;
 }
 
 .nav ul li{
+    list-style-type: none;
     display: inline-block;
+    padding: 10px 20px;
     position: relative;
-    padding: 15px;
+}
 
+.nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+.home{
+    display: flex;
+    border: 1px solid black;
+    padding: 2%;
+}
+
+.about{
+    border: 1px solid red;
+    padding: 2%;
+    width: 50%;
+}
+
+.about h1{
+    margin: 0;
+    font-size: xx-large;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+.about h3{
+    margin: 0;
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
 }
