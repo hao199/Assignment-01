@@ -28,60 +28,71 @@
 
 /*Styling Home*/
 .home{
-    display: flex;
-    padding: 2%;
-    background-color: lightblue;
-    height: 650px;
+    background-color: lightskyblue;
+}
+
+.home-container{
+    padding: 0;
 }
 
 .home-content{
-    display: flex;
     width: 100%;
+    height: 90vh;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+    z-index: 1;
+    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+    justify-self: center;
 }
 
-.about{
-    padding: 8%;
-    width: 55%;
-}
 
-.about .text-1{
-    font-size: 40px;
+.home-content h1{
+    font-size: 4rem;
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
-.about .text-2{
-    font-size: 70px;
-    font-weight: bold;
+.home-content h2{
+    font-size: 3rem;
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
-.about .text-3{
-    font-size: 40px;
-    font-weight: 600;
+.home-content h3{
+    font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
-.about .text-4{
-    font-size: 40px;
-    font-weight: lighter;
+.home-content p{
+    font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
+.home-content button{
+    font-size: 1rem;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 2rem;
+    cursor: pointer;  
+    position: relative;
+    transition: all 0.35s;
+}
 
-.picture{
-    width: 45%;
-    object-fit: cover;
-    text-align: center;
-    padding-top: 80px;
-    
+.home-content button a{
+    color:#00B0FF;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    z-index: 2;
+
+}
+
+.picture-container img{
+    height: 100%; 
+    width: 100%;   
 }
 
 /*Styling Skills*/
@@ -108,7 +119,7 @@
 
 .card{
     text-align: center;
-    background-color: pink;
+    background-color: lightskyblue;
     margin: 3%;
     padding: 2%
 }
@@ -138,27 +149,27 @@
 }
 
 .education .container .left{
-    background-color: pink;
+    background-color: lightskyblue;
     width: 30%;
     padding: 3%;
     margin: 2%;
 }
 
 .education .container .right{
-    background-color: pink;
+    background-color: lightskyblue;
     width: 30%;
     padding: 3%;
     margin: 2%;
 }
 
 .left .picture img{
-    width: 400px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
 }
 
 .right .picture img{
-    width: 400px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
 }
 
 .info .school{
@@ -181,5 +192,55 @@
     color: black;
 }
 
+/*media queries for home*/
+@media screen and (max-width: 1206px){
+    .home-content h1{
+        font-size: 3.5rem;
+    }
+    
+    .home-content h2{
+        font-size: 2.5rem;
+    }
 
+    .home-content h3{
+        font-size: 1.5rem;
+    }
+
+    .home-content p{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (max-width: 680px){
+    .home-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90vh;
+        margin: 0 auto;
+    }
+    
+    .home-content h1{
+        font-size: 3rem;
+    }
+    
+    .home-content h2{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .home-content h3{
+        font-size: 1rem;
+    }
+
+    .home-content p{
+        font-size: 1rem;
+    }
+
+    .home-content button{
+        margin-bottom: 2rem;
+    }
+}
+    
 
