@@ -1,57 +1,97 @@
-.body{
+*{
     margin: 0;
     padding: 0;
 }
 
 /*Styling Navigation Bar*/
 .nav{
-    flex: 1;
+    width: 100%;
+    height: 100px;
     text-align: center;
+    
 }
 
-.nav ul li{
+.nav .menu li{
     list-style-type: none;
     display: inline-block;
-    padding: 10px 20px;
-    position: relative;
+    padding: 35px 30px;
 }
 
 .nav ul li a{
-    color: black;
+    color: grey;
     text-decoration: none;
-    font-size: large;
+    font-size: 20px;
+    font-weight: bolder;
     font-family: 'Open Sans', sans-serif;
-    font-style: italic;
+    
 }
 
 /*Styling Home*/
 .home{
     display: flex;
-    border: 1px solid black;
     padding: 2%;
+    background-color: lightblue;
+    height: 650px;
+}
+
+.home-content{
+    display: flex;
+    width: 100%;
 }
 
 .about{
-    border: 1px solid red;
-    padding: 2%;
-    width: 50%;
+    padding: 8%;
+    width: 55%;
 }
 
-.about h1{
-    margin: 0;
-    font-size: xx-large;
+.about .text-1{
+    font-size: 40px;
     font-family: 'Open Sans', sans-serif;
-    font-style: italic;
-}
-
-.about h3{
     margin: 0;
-    font-size: large;
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
+    padding: 0;
 }
 
+.about .text-2{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.about .text-3{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.about .text-4{
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.picture{
+    width: 45%;
+    object-fit: cover;
+    text-align: center;
+    padding-top: 80px;
+    
+}
 /*Styling Skills*/
+.skills .title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    padding: 130px;
+
+}
 .skills h1{
     text-align: center;
     font-size: xx-large;
@@ -59,11 +99,25 @@
 }
 
 .content{
+    width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
+
 .card{
-    border: 1px solid black;
-    margin: 2%;
-    padding: 2%;
+    text-align: center;
+    background-color: pink;
+    margin: 3%;
+    padding: 2%
 }
+
+.skills .app{
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
+    color: black;
+}
+
+
