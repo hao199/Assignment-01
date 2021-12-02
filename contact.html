@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/70fef04a48.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--navigation-->
+    <nav class="nav">  
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--contact-->
+    <section class="contact">
+        <img src="images/me.jpg" alt="">
+        <h1>Contact Me</h1>
+        <div class="contact-container">
+            <div class="text">
+                <input type="text" id="name" placeholder="Name" >
+            </div>
+            <div>
+                <input type="email" id="email" class="email" placeholder="Email">
+            </div>
+            <div>
+                <textarea rows="5" id="message" class="textbox" cols="33" placeholder="Message"></textarea>
+            </div>
+            <div>
+                <button class="button" onclick="submitContact()">Send Message</button>                    
+            </div>
+        </div>
+        <script src="contactme.js"></script>   
+    </section>
+</body>
+</html>
