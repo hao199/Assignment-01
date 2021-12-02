@@ -4,6 +4,7 @@
 }
 
 
+
 /*Styling Navigation Bar*/
 .nav{
     width: 100%;
@@ -96,6 +97,7 @@
 }
 
 /*Styling Skills*/
+
 .skills .title{
     text-align: center;
     font-size: 50px;
@@ -192,6 +194,43 @@
     color: black;
 }
 
+/*showcase*/
+
+.subject{
+    background-color: white;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.subject h1{
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.show-container{
+    height: 90vh;
+    width: 100%;
+    background-color: #E3DEDD;
+}
+
+.row-1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 70px;
+
+}
+
+.row-1 .card{
+    padding: 10px;
+    background-color: white;
+}
+
+.row-1 img{
+    height: 250px;
+    width: 250px;
+}
 
 @media screen and (max-width: 1206px){
     .home-content h1{
