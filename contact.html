@@ -24,23 +24,31 @@
 
     <!--contact-->
     <section class="contact">
-        <img src="images/me.jpg" alt="">
-        <h1>Contact Me</h1>
-        <div class="contact-container">
-            <div class="text">
-                <input type="text" id="name" placeholder="Name" >
-            </div>
-            <div>
-                <input type="email" id="email" class="email" placeholder="Email">
-            </div>
-            <div>
-                <textarea rows="5" id="message" class="textbox" cols="33" placeholder="Message"></textarea>
-            </div>
-            <div>
-                <button class="button" onclick="submitContact()">Send Message</button>                    
-            </div>
+        <div class="left-container">
+            <!-- <img src="images/me.jpg" alt=""> -->
+            <img class="pic3" src="images/pic3.svg" alt="">
         </div>
-        <script src="contactme.js"></script>   
+        <div class="right-container">
+            <h1>Contact Me</h1>
+            <h2>Get in touch</h2>
+            <form>
+                <div class="contact-container">
+                    <div class="text">
+                        <input type="text" id="name" placeholder="Name" required >
+                    </div>
+                    <div class="email">
+                        <input type="email" id="email" class="email" placeholder="Email" required>
+                    </div> 
+                    <div class="textarea">
+                        <textarea rows="5" id="message" class="textbox" cols="33" placeholder="Message" required></textarea>
+                    </div>
+                    <div class="button">
+                        <button type="submit" onclick="validCheck()">Send Message</button>                    
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script src="contactme.js"></script>  
     </section>
 </body>
 </html>
