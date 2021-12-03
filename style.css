@@ -493,6 +493,26 @@
         top: 70px;
     
     }
+
+    .contact h1{
+        font-size: 3rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .contact h2{
+        font-size: 2rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .contact-container textarea{
+        height: 100px;
+        border-radius: 6px;
+        border: 1px solid lightgrey;
+        outline: none;
+        padding: 0 15px;
+        font-size: 11px ;
+        font-family: 'Open Sans', sans-serif;
+    }
 }
     
 @media screen and (max-width: 481px){
