@@ -26,3 +26,5 @@ The contact Page allows users to contact me using the form i have created with v
 
 ## Credits
 Credits to rnevius in stackoverflow for code line 10 to 20 in contactme.js
+Credits to https://www.psleresults.com/shuqun-secondary-school/ for picture of shuqun secondary school
+Credits to https://www.ite.edu.sg/colleges for picture of ITE West
